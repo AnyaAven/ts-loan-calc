@@ -34,3 +34,9 @@ function ({ amount, years, rate }: {
   }
 ```
 
+Don't do TS's job if it can do it for you!
+
+(evt: SubmitEvent) vs only (evt)
+
+The second one is better! TS knows the evt, typically!
+
